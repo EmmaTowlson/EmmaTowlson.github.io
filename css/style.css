@@ -130,6 +130,17 @@ p {
   text-transform: uppercase;
 }
 
+.section-subtitle {
+  margin-bottom: 15px;
+  margin-top: 40px;
+  color: #292929;
+}
+
+.section-subtitle h3 {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
 .form-control {
   background-color: transparent;
   border: 1px solid #999;
@@ -511,6 +522,7 @@ nav ul li a {
   position: relative;
 }
 
+
 .journal-block .journal-info .journal-txt h4 a {
   display: block;
   font-size: 19px;
@@ -538,6 +550,51 @@ nav ul li a {
   margin: 0;
   font-size: 14px;
   line-height: 24px;
+}
+
+.journal-block .journal-info .journal-txt h6 {
+  color: #292929;
+}
+
+.journal-block .journal-info .journal-txt-pubs {
+  padding: 25px 0px;
+  position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.journal-block .journal-info .journal-txt-pubs h4 a {
+  display: block;
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0 0 13px 0;
+  font-weight: 500;
+  color: #292929;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.journal-block .journal-info .journal-txt-pubs h4 a:hover {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.journal-block .journal-info .journal-txt-pubs p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.journal-block .journal-info .journal-txt-pubs h6 {
+  color: #292929;
 }
 
 /*-----------------------------------------------------------------------------------*/
