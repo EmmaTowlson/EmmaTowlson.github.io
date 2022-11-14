@@ -892,7 +892,7 @@ nav ul li a {
 #hero2 {
   width: 100%;
   height: 60vh;
-  background: url("../images/bar-resize.003.jpeg") center center;
+  background: url("../images/v3.JPG") center center;
   background-size: cover;
   position: relative;
   /*margin-top: 70px;*/
@@ -947,7 +947,7 @@ nav ul li a {
   }
 }
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero2 h1 {
     font-size: 30px;
     line-height: 36px;
   }
